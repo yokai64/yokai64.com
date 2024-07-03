@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Mon;
+  src: url("../font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Mon-Block;
+  src: url("../font/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: Mon-Light;
+  src: url("../font/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../font/roboto.ttf");
+}
+
+body {
+  font-family: Mon;
+  background-color: #000000;
+  color: aliceblue;
+  background-image: linear-gradient(140deg, #000056, #fc3887);
+  background-attachment: fixed;
+}
+
+.black {
+  font-family: Mon-Block;
+  text-transform: uppercase;
+  font-size: 10em;
+}
+
+.black-reg {
+  font-family: Mon-Block;
+  text-transform: uppercase;
+}
+
+.development {
+  background: repeating-linear-gradient(
+    -55deg,
+    #ffd000,
+    #ffd000 60px,
+    #1b1b1b 40px,
+    #1b1b1b 90px
+  );
+  color: black;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.development-inner {
+  background-color: #ffd000;
+  display: inline-block;
+  padding: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 1vh;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: large;
+}
+
+.development a:link {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+.development a:visited {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+.development a:hover {
+  color: #414141 !important;
+  text-decoration: underline !important;
+}
+.development a:active {
+  color: #8a8a8a !important;
+  text-decoration: underline !important;
+}
+
+.linky {
+  a:link {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  a:active {
+    color: #ffffff;
+    text-decoration: underline;
+    color: #ffffff;
+  }
+}
