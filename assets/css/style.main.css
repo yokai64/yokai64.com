@@ -3,9 +3,14 @@
   src: url("../font/roboto.ttf");
 }
 
+@font-face {
+  font-family: poet;
+  src: url("../font/poet.ttf");
+}
+
 body {
-  font-family: Roboto;
-  background-color: #000000;
+  font-family: poet;
+  background-color: #302837;
   color: aliceblue;
 }
 
@@ -24,6 +29,7 @@ body {
 }
 
 .development-inner {
+  font-family: Roboto;
   background-color: #ffd000;
   display: inline-block;
   padding: 0.5em;
@@ -50,4 +56,80 @@ body {
 .development a:active {
   color: #8a8a8a !important;
   text-decoration: underline !important;
+}
+
+.connection {
+  height: 3em;
+  margin: 0.5em;
+}
+
+.inbutton {
+  width: 6em;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #5865f2 !important;
+}
+
+.line1 {
+  border: none;
+  height: 0.5em;
+  /* Set the hr color */
+  color: #b31136; /* old IE */
+  background-color: #b31136; /* Modern Browsers */
+}
+
+.line2 {
+  border: none;
+  height: 0.5em;
+  /* Set the hr color */
+  color: #ff8023; /* old IE */
+  background-color: #ff8023; /* Modern Browsers */
+}
+
+.line3 {
+  border: none;
+  height: 0.5em;
+  /* Set the hr color */
+  color: #ffb41d; /* old IE */
+  background-color: #ffb41d; /* Modern Browsers */
+}
+
+.line4 {
+  border: solid;
+  height: 0.5em;
+  /* Set the hr color */
+  color: #31a7a7; /* old IE */
+  background-color: #31a7a7; /* Modern Browsers */
+}
+
+hr {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.shhh {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.shhh,
+.shhh:active,
+.shhh:visited {
+  color: #302837 !important;
+  text-decoration: none;
+}
+
+.shhh:hover {
+  color: #ff8023;
+}
+
+.hero {
+  height: 8em;
 }
