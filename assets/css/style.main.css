@@ -8,6 +8,11 @@
   src: url("../font/poet.ttf");
 }
 
+@font-face {
+  font-family: uni;
+  src: url("../font/uni.otf");
+}
+
 body {
   font-family: poet;
   background-color: #302837;
@@ -132,4 +137,42 @@ hr {
 
 .hero {
   height: 8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: uni;
+}
+
+h4,
+h5,
+h6 {
+  opacity: 0.6;
+}
+
+.container-custom {
+  max-width: 75%;
+  text-align: justify;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #fff5dd;
 }
